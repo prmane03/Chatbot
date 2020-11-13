@@ -1,0 +1,70 @@
+body{
+    background-color: #493300;
+}
+.box{
+    width: 88%;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px #000; 
+    color: #000;
+    align-items: center;
+    
+}
+.chatScreen{
+    padding: 5px 5px 5px 5px;
+    background-color:white;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px #FFF7CB;
+    overflow: auto; 
+    height: 400px; 
+    width: 95%;
+}
+.botCloud{
+    width: 60%;
+    margin: 5px 5px 5px 5px;
+    padding:3px;
+    background-color: black;
+    color:white;
+    box-shadow: 0 2px 5px #ccc;
+    float:left;
+}
+.usrCloud{
+    width:60%;
+    margin:5px 5px 5px 5px;
+    padding:3px;
+    background-color: orange;
+    color:white;
+    box-shadow: 0 2px 5px #ccc;
+    float:right;
+}
+input{
+    border: 1px solid #ccc;
+    width: 72%;
+    padding: 5px;
+}
+input:hover{
+    outline: none;
+    border: 1px solid #095484;
+}
+button {
+    margin: 3px;
+    width: 65px;
+    padding: 5px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: orange;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
+.bottomBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
